@@ -407,7 +407,7 @@ specification.  See L<Perl::Critic::Violation|Perl::Critic::Violation> for an
 explanation of format specifications.  You can set the default value for this
 option in your F<.perlcriticrc> file.
 
-B<-unsafe> directs Perl::Critic to allow the use of Policies that are marked
+B<-allow-unsafe> directs Perl::Critic to allow the use of Policies that are marked
 as "unsafe" by the author.  Such policies may compile untrusted code or do
 other nefarious things.
 
